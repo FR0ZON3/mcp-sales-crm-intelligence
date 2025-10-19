@@ -1,4 +1,18 @@
-node
+
+node_modules/
+dist/
 .env
 *.sqlite
 /data/
+
+<<<<<<< HEAD
+node_modules/
+dist/
+.env
+*.sqlite
+/data/
+=======
+node_modules/
+dist/
+.env
+>>>>>>> 47397db (Initial scaffold: MCP client, Kaggle downloader, tests)

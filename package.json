@@ -1,0 +1,16 @@
+{
+  "name": "mcp-sales-crm-intelligence",
+  "version": "0.1.0",
+  "description": "Starter project integrating GitHub and Apify MCP servers for sales CRM intelligence",
+  "main": "src/mcpClient.js",
+  "scripts": {
+    "start": "node src/mcpClient.js",
+    "test": "node test/test.js"
+  },
+  "keywords": ["mcp","apify","github","scraping"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.20.1",
+    "@modelcontextprotocol/server-github": "^2025.4.8"
+  }
